@@ -1,0 +1,19 @@
+[package]
+name = "node-twox-hash"
+version = "0.1.0"
+description = "Node.js bindings to the Rust twox-hash library"
+authors = ["Wilson Lin <code@wilsonl.in>"]
+license = "ISC"
+edition = "2018"
+exclude = ["index.node"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+twox-hash = "=1.6.3"
+
+[dependencies.neon]
+version = "0.10"
+default-features = false
+features = ["napi-6"]
