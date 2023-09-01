@@ -1,6 +1,6 @@
 {
   "name": "node-twox-hash",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Node.js bindings to the Rust twox-hash library",
   "main": "index.node",
   "scripts": {
