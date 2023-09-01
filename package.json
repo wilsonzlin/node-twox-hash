@@ -8,6 +8,7 @@
     "build-debug": "npm run build --",
     "build-release": "npm run build -- --release",
     "install": "npm run build-release",
+    "prepublishOnly": "rm -f index.node",
     "test": "cargo test"
   },
   "author": "Wilson Lin <code@wilsonl.in>",
