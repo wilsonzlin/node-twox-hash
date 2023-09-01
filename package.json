@@ -12,7 +12,7 @@
   },
   "author": "Wilson Lin <code@wilsonl.in>",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "cargo-cp-artifact": "^0.1"
   },
   "repository": {
